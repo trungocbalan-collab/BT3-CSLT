@@ -37,16 +37,5 @@ namespace BaitapCSLT
                 Console.WriteLine("Wrong Character");
         }
 
-        static void BT2()
-        {
-            int n;
-            Console.Write("Input a number: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            if (n % 2 == 0)
-                Console.WriteLine("{0} is an even number.", n);
-            else
-                Console.WriteLine("{0} is an odd number.", n);
-        }
-
     }
 }
