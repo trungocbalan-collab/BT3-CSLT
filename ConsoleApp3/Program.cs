@@ -11,10 +11,6 @@ namespace BaitapCSLT
             Console.InputEncoding = Encoding.UTF8;
 
             BT1();
-            BT2();
-            BT3();
-            BT4();
-            BT5();
 
             Console.ReadKey();
         }
